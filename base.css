@@ -1,0 +1,124 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: transparent;
+    min-height: 150px;
+}
+.content {
+   
+    min-height: 300px;
+    padding: 20px;
+}
+
+.content p {
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+
+}
+.footer {
+    background-color: transparent;
+    min-height: 150px;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    
+}
+.footer p {
+    margin-bottom: 200px;
+    padding: 0;
+    line-height: 25px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    
+}
+li{list-style: none;
+    margin: 10px;
+    padding: 0;
+    }
+li a{color: black;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+img{
+    width: 100%;
+    height: 70%;
+}
+h1  {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+h2{
+    text-align: center;
+}
+.phone{
+    border: 1 px solid black;
+    align-items: center ;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 340px;
+    padding-top: 50px;
+
+}
+
+.phonew{
+    align-items: center ;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 340px;
+}
+
+.rua{
+    align-items: center ;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 340px;}
+    iframe{
+        align-items: center ;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 340px;
+    }
+    form{
+        align-items: center ;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 340px;
+        padding-right: 280px;
+    }
